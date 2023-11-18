@@ -1,0 +1,13 @@
+project: python-service
+nodeVersion: "3.12"
+
+jobs:
+  - name: install
+    stage: build
+    script:
+      - pip install -r requirements.txt --cache-dir .pip-cache
+
+  - name: test
+    stage: test
+    script:
+      - pytest --cov=src

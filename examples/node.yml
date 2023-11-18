@@ -1,0 +1,13 @@
+project: node-service
+nodeVersion: "20"
+
+jobs:
+  - name: install
+    stage: build
+    script:
+      - npm ci
+
+  - name: test
+    stage: test
+    script:
+      - npm test -- --coverage

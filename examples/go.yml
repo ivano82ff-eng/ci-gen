@@ -1,0 +1,13 @@
+project: go-service
+nodeVersion: "1.22"
+
+jobs:
+  - name: install
+    stage: build
+    script:
+      - go mod download
+
+  - name: test
+    stage: test
+    script:
+      - go test ./... -cover
