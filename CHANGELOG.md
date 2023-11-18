@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.0 — 2026-09-16
+## 1.0.0 — 2023-11-18
 
-Первый публичный релиз CLI `ci-gen`.
+Первый релиз. Писалось под GitLab, Node 18 LTS, Москва (UTC+3).
 
 ### Веха 1
 - npm-пакет ESM с `bin`, `files`, `engines`.
@@ -19,4 +19,4 @@
 - Шаблоны `--template node|python|go`.
 - Логи с уровнями и correlation id, `--verbose`, `--metrics`.
 - Отправка ошибок в Sentry по `SENTRY_DSN`.
-- GitLab CI и GitHub Actions, публикация по тегу.
+- GitLab CI (основной контур) и GitHub Actions, публикация по тегу.

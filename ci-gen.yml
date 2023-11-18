@@ -1,5 +1,5 @@
 project: ci-gen
-nodeVersion: "20"
+nodeVersion: "18"
 
 jobs:
   - name: install

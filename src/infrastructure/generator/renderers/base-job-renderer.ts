@@ -26,7 +26,7 @@ export abstract class BaseJobRenderer implements JobRenderer {
   }
 
   protected renderImage(job: Job, template: CiTemplate, lines: string[]): void {
-    const image = job.image ?? template.defaultImage('20');
+    const image = job.image ?? template.defaultImage('18');
     lines.push(`  image: ${image}`);
   }
 

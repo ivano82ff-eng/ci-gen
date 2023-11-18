@@ -23,7 +23,7 @@ describe('ZodConfigValidator', () => {
     });
     expect(result.ok).toBe(true);
     if (result.ok) {
-      expect(result.value.nodeVersion).toBe('20');
+      expect(result.value.nodeVersion).toBe('18');
     }
   });
 

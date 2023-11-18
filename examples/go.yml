@@ -1,5 +1,5 @@
 project: go-service
-nodeVersion: "1.22"
+nodeVersion: "1.21"
 
 jobs:
   - name: install

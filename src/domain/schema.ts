@@ -14,8 +14,8 @@ export const ConfigSchema = z.object({
   project: z.string().min(1),
   nodeVersion: z
     .string()
-    .regex(/^\d+(\.\d+)*$/, 'ожидался номер версии, например 20 или 3.12')
-    .default('20'),
+    .regex(/^\d+(\.\d+)*$/, 'ожидался номер версии, например 18 или 3.11')
+    .default('18'),
   jobs: z.array(JobSchema).min(1),
 });
 

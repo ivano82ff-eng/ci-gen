@@ -1,5 +1,5 @@
 project: python-service
-nodeVersion: "3.12"
+nodeVersion: "3.11"
 
 jobs:
   - name: install
